@@ -13,7 +13,7 @@
     "start": "nodemon dist/server.js",
     "build": "tsc",
     "dev": "ts-node-dev --respawn src/server.ts",
-    "seed": "node scripts/seedDb.js"
+    "seed": "ts-node-dev scripts/seedDb.js"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
